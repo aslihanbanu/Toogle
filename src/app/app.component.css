@@ -22,10 +22,7 @@
 }
 
 button{
-    background-color: cornsilk;
-    border: 0;
-    right: 10px;
-    border-radius: 2px;
+
     user-select: none;
 }
 a{
