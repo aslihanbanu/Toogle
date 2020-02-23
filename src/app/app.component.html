@@ -1,0 +1,24 @@
+<div class="topnav">
+  <div class="topnav-right">
+   
+    <button (click)="isShown = !isShown">Menu</button>
+  </div>
+</div>
+<div class="menu topnav-right">
+  <div class="collapse justify-content-end navbar-collapse" [ngClass]="{ 'show': isShown }">
+    <ul class="navbar-nav mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#" (click)="isShown = false" >Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" (click)="isShown = false" >About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" (click)="isShown = false" >Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" (click)="isShown = false" >Label4</a>
+      </li>
+    </ul>
+  </div>
+</div>
